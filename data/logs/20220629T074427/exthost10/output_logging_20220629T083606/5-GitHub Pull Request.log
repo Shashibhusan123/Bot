@@ -20,3 +20,34 @@
 [Info] Review> no matching pull request metadata found for current branch master
 [Info] Review> no matching pull request metadata found on GitHub for current branch master
 [Info] PullRequestTree> Removing PR #undefined from tree
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remotes found. The following remotes are missing: origin, upstream
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch master
+[Info] Review> no matching pull request metadata found on GitHub for current branch master
+[Info] PullRequestTree> Removing PR #undefined from tree
+[Info] Error signing in to GitHub: Error: 5 NOT_FOUND: no token available
+[Info] Error: 5 NOT_FOUND: no token available
+	at Object.t.callErrorFromStatus (/ide/extensions/gitpod-web/dist/extension.js:2:288809)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:323897)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:319867)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:319312)
+	at /ide/extensions/gitpod-web/dist/extension.js:2:279170
+	at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[Info] Error signing in to GitHub: Error: 5 NOT_FOUND: no token available
+[Info] Error: 5 NOT_FOUND: no token available
+	at Object.t.callErrorFromStatus (/ide/extensions/gitpod-web/dist/extension.js:2:288809)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:323897)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:319867)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:319312)
+	at /ide/extensions/gitpod-web/dist/extension.js:2:279170
+	at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[Info] Error signing in to GitHub: Error: 5 NOT_FOUND: no token available
+[Info] Error: 5 NOT_FOUND: no token available
+	at Object.t.callErrorFromStatus (/ide/extensions/gitpod-web/dist/extension.js:2:288809)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:323897)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:319867)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/dist/extension.js:2:319312)
+	at /ide/extensions/gitpod-web/dist/extension.js:2:279170
+	at processTicksAndRejections (node:internal/process/task_queues:78:11)
