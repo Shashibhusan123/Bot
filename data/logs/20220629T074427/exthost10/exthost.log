@@ -1,0 +1,40 @@
+[2022-06-29 08:36:06.473] [exthost] [info] Extension host with pid 9773 started
+[2022-06-29 08:36:06.476] [exthost] [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f/vscode.lock'
+[2022-06-29 08:36:06.480] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-06-29 08:36:06.481] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f/vscode.lock': The lock does not look stale, elapsed: 644 ms, giving up.
+[2022-06-29 08:36:06.483] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f-1/vscode.lock': Lock acquired.
+[2022-06-29 08:36:07.959] [exthost] [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+[2022-06-29 08:36:08.034] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-29 08:36:08.239] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-29 08:36:08.504] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-29 08:36:08.507] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-29 08:36:08.511] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-29 08:36:08.529] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-06-29 08:36:08.530] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings, startup: true, activationEvent: '*'
+[2022-06-29 08:36:09.092] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-06-29 08:36:09.152] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-29 08:36:09.209] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-29 08:36:10.621] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-29 08:36:10.727] [exthost] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+[2022-06-29 08:36:11.450] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 08:36:11.451] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 08:36:13.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 08:36:13.595] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 08:36:13.644] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 08:36:14.084] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 08:36:14.096] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 08:36:14.099] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 08:36:14.104] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 08:36:14.120] [exthost] [info] Eager extensions activated
+[2022-06-29 08:38:46.126] [exthost] [error] [ms-python.python] provider FAILED
+[2022-06-29 08:38:46.130] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123313
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123607
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123969)
+	at processImmediate (node:internal/timers:464:21)
+[2022-06-29 08:40:50.773] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7605
+[2022-06-29 08:40:53.379] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 08:40:55.932] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7605
+[2022-06-29 08:41:01.083] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7605
+[2022-06-29 08:41:06.267] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7605
+[2022-06-29 08:41:11.547] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7605

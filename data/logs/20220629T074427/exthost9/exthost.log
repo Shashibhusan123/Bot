@@ -1,0 +1,49 @@
+[2022-06-29 08:29:00.625] [exthost] [info] Extension host with pid 7754 started
+[2022-06-29 08:29:00.627] [exthost] [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f/vscode.lock'
+[2022-06-29 08:29:00.633] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-06-29 08:29:00.633] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f/vscode.lock': The lock does not look stale, elapsed: 344 ms, giving up.
+[2022-06-29 08:29:00.726] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f-1/vscode.lock': Lock acquired.
+[2022-06-29 08:29:01.184] [exthost] [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+[2022-06-29 08:29:01.296] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-29 08:29:01.570] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-29 08:29:01.890] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-29 08:29:01.894] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-29 08:29:01.898] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-29 08:29:01.912] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-06-29 08:29:01.913] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings, startup: true, activationEvent: '*'
+[2022-06-29 08:29:03.565] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-06-29 08:29:03.627] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-29 08:29:03.677] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-29 08:29:05.633] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-29 08:29:05.789] [exthost] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+[2022-06-29 08:29:07.222] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 08:29:07.223] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 08:29:08.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 08:29:08.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 08:29:08.725] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 08:29:10.171] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 08:29:10.183] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 08:29:10.186] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 08:29:10.190] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 08:29:10.206] [exthost] [info] Eager extensions activated
+[2022-06-29 08:34:41.668] [exthost] [error] [ms-python.python] provider FAILED
+[2022-06-29 08:34:41.672] [exthost] [error] Error: AttributeError: 'NoneType' object has no attribute 'is_module'
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123313
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123607
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123969)
+	at processImmediate (node:internal/timers:464:21)
+[2022-06-29 08:34:41.869] [exthost] [error] [ms-python.python] provider FAILED
+[2022-06-29 08:34:41.869] [exthost] [error] Error: AttributeError: 'NoneType' object has no attribute 'is_module'
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123313
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123607
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123969)
+	at processImmediate (node:internal/timers:464:21)
+[2022-06-29 08:34:50.719] [exthost] [error] [ms-python.python] provider FAILED
+[2022-06-29 08:34:50.719] [exthost] [error] Error: ValueError: `column` parameter (34) is not in a valid range (0-33) for line 4 ('from discord.ext,commands import \n').
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123313
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123607
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123969)
+	at processImmediate (node:internal/timers:464:21)
+[2022-06-29 08:35:46.311] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-29 08:35:46.312] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-06-29 08:35:46.353] [exthost] [info] Extension host with pid 7754 exiting with code 0

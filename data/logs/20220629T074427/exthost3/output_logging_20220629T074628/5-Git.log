@@ -1,0 +1,17 @@
+[2022-06-29T07:46:31.807Z] Log level: Info
+[2022-06-29T07:46:31.808Z] [info] Validating found git in: git
+[2022-06-29T07:46:31.822Z] [info] Using git 2.36.1 from git
+[2022-06-29T07:46:31.839Z] > git rev-parse --show-toplevel [3ms]
+[2022-06-29T07:46:31.848Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-06-29T07:46:31.853Z] [info] Open repository: /workspace/Bot
+[2022-06-29T07:46:31.989Z] > git status -z -uall [128ms]
+[2022-06-29T07:46:32.000Z] > git symbolic-ref --short HEAD [1ms]
+[2022-06-29T07:46:32.007Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-06-29T07:46:32.018Z] > git remote --verbose [1ms]
+[2022-06-29T07:46:32.019Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-06-29T07:46:32.028Z] > git config --get commit.template [1ms]
+[2022-06-29T07:46:33.657Z] > git check-ignore -v -z --stdin [1ms]
+[2022-06-29T07:46:34.216Z] > git show --textconv :main.py [7ms]
+[2022-06-29T07:46:34.217Z] > git ls-files --stage -- /workspace/Bot/main.py [2ms]
+[2022-06-29T07:46:34.223Z] > git cat-file -s 3e462c300d62ddf23b85e553ce94b196d2b0c486 [1ms]
+[2022-06-29T07:46:37.027Z] > git config --local branch.main.github-pr-owner-number [2ms]

@@ -1,0 +1,9 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+> conda info --json
+> ~/.pyenv/versions/3.8.13/bin/python ./extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ./extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /bin/python2 ./extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ./extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /bin/python3 ./extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ./extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 ./extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ./extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ./extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ./extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+Python interpreter path: ~/.pyenv/versions/3.8.13/bin/python
+Starting Jedi language server for .vscode-remote.

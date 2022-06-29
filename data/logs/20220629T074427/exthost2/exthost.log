@@ -1,0 +1,44 @@
+[2022-06-29 07:45:27.314] [exthost] [info] Extension host with pid 1227 started
+[2022-06-29 07:45:27.323] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f/vscode.lock': Lock acquired.
+[2022-06-29 07:45:27.624] [exthost] [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+[2022-06-29 07:45:27.701] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-29 07:45:27.705] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-29 07:45:27.709] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-29 07:45:27.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-06-29 07:45:27.721] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings, startup: true, activationEvent: '*'
+[2022-06-29 07:45:28.005] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-06-29 07:45:28.063] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-29 07:45:28.114] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-29 07:45:28.948] [exthost] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+[2022-06-29 07:45:29.472] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:45:29.473] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:45:30.173] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:45:30.968] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 07:45:30.972] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 07:45:31.020] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-29 07:45:31.427] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 07:45:31.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 07:45:31.442] [exthost] [info] Eager extensions activated
+[2022-06-29 07:45:35.590] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-29 07:45:35.819] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-29 07:45:37.236] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-29 07:48:35.390] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:48:35.912] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 07:48:37.551] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:48:41.960] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:48:41.971] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:48:42.236] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 07:48:49.121] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-29 07:49:18.989] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:49:21.071] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:50:55.449] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 07:51:10.855] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-06-29 08:22:26.004] [exthost] [error] [ms-python.python] provider FAILED
+[2022-06-29 08:22:26.008] [exthost] [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(argument, [<Name: name@11,26>, <Operator: =>, <String: 'ping'>]), <Operator: ,>, PythonNode(argument, [<Name: description@11,39>, <Operator: =>, <String: 'Bot latency'>])]), <Operator: )>]) is not in list
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123313
+	at /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123607
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/out/client/extension.js:2:2123969)
+	at processImmediate (node:internal/timers:464:21)
+[2022-06-29 08:27:26.965] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-29 08:27:26.966] [exthost] [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-d51538f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-06-29 08:27:27.013] [exthost] [info] Extension host with pid 1227 exiting with code 0

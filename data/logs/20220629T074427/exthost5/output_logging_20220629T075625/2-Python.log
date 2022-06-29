@@ -1,0 +1,9 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+> conda info --json
+Python interpreter path: ~/.pyenv/versions/3.8.13/bin/python
+> ~/.pyenv/versions/3.8.13/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /bin/python2 /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /bin/python3 /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+Starting Jedi language server for Bot.

@@ -1,0 +1,49 @@
+/home/gitpod/.pyenv/versions/3.8.13/bin/python: can't open file '/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/run-jedi-language-server.py': [Errno 2] No such file or directory
+[Info  - 7:44:58 AM] Connection to server got closed. Server will restart.
+[Error - 7:44:58 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 7:44:58 AM] Python Jedi client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+/home/gitpod/.pyenv/versions/3.8.13/bin/python: can't open file '/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/run-jedi-language-server.py': [Errno 2] No such file or directory
+[Info  - 7:44:58 AM] Connection to server got closed. Server will restart.
+[Error - 7:44:58 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 7:44:58 AM] Python Jedi client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+/home/gitpod/.pyenv/versions/3.8.13/bin/python: can't open file '/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/run-jedi-language-server.py': [Errno 2] No such file or directory
+[Info  - 7:44:58 AM] Connection to server got closed. Server will restart.
+[Error - 7:44:58 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 7:44:58 AM] Python Jedi client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 7:44:58 AM] Restarting server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+/home/gitpod/.pyenv/versions/3.8.13/bin/python: can't open file '/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/run-jedi-language-server.py': [Errno 2] No such file or directory
+[Info  - 7:44:58 AM] Connection to server got closed. Server will restart.
+[Error - 7:44:58 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 7:44:58 AM] Python Jedi client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 7:44:58 AM] Restarting server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+/home/gitpod/.pyenv/versions/3.8.13/bin/python: can't open file '/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/run-jedi-language-server.py': [Errno 2] No such file or directory
+[Error - 7:44:58 AM] The Python Jedi server crashed 5 times in the last 3 minutes. The server will not be restarted. See the output for more information.
+[Error - 7:44:58 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 7:44:58 AM] Python Jedi client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 7:44:58 AM] Restarting server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 

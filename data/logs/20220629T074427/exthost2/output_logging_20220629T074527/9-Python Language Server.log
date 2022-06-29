@@ -1,0 +1,90 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "2"
+WARNING:pygls.protocol:Cancel notification for unknown message id "6"
+WARNING:pygls.protocol:Cancel notification for unknown message id "7"
+WARNING:pygls.protocol:Cancel notification for unknown message id "11"
+WARNING:pygls.protocol:Cancel notification for unknown message id "12"
+WARNING:pygls.protocol:Cancel notification for unknown message id "18"
+WARNING:pygls.protocol:Cancel notification for unknown message id "19"
+WARNING:pygls.protocol:Cancel notification for unknown message id "35"
+WARNING:pygls.protocol:Cancel notification for unknown message id "52"
+WARNING:pygls.protocol:Cancel notification for unknown message id "83"
+WARNING:pygls.protocol:Cancel notification for unknown message id "126"
+WARNING:pygls.protocol:Cancel notification for unknown message id "144"
+WARNING:pygls.protocol:Cancel notification for unknown message id "154"
+WARNING:pygls.protocol:Cancel notification for unknown message id "158"
+WARNING:pygls.protocol:Cancel notification for unknown message id "172"
+WARNING:pygls.protocol:Cancel notification for unknown message id "222"
+WARNING:pygls.protocol:Cancel notification for unknown message id "306"
+WARNING:pygls.protocol:Cancel notification for unknown message id "335"
+WARNING:pygls.protocol:Cancel notification for unknown message id "338"
+WARNING:pygls.protocol:Cancel notification for unknown message id "341"
+WARNING:pygls.protocol:Cancel notification for unknown message id "346"
+WARNING:pygls.protocol:Cancel notification for unknown message id "347"
+WARNING:pygls.protocol:Cancel notification for unknown message id "357"
+WARNING:pygls.protocol:Cancel notification for unknown message id "377"
+WARNING:pygls.protocol:Cancel notification for unknown message id "462"
+WARNING:pygls.protocol:Cancel notification for unknown message id "471"
+WARNING:pygls.protocol:Cancel notification for unknown message id "472"
+WARNING:pygls.protocol:Cancel notification for unknown message id "487"
+WARNING:pygls.protocol:Cancel notification for unknown message id "499"
+WARNING:pygls.protocol:Cancel notification for unknown message id "500"
+WARNING:pygls.protocol:Cancel notification for unknown message id "503"
+WARNING:pygls.protocol:Cancel notification for unknown message id "504"
+WARNING:pygls.protocol:Cancel notification for unknown message id "506"
+WARNING:pygls.protocol:Cancel notification for unknown message id "508"
+WARNING:pygls.protocol:Cancel notification for unknown message id "507"
+WARNING:pygls.protocol:Cancel notification for unknown message id "509"
+WARNING:pygls.protocol:Cancel notification for unknown message id "511"
+WARNING:pygls.protocol:Cancel notification for unknown message id "512"
+WARNING:pygls.protocol:Cancel notification for unknown message id "513"
+WARNING:pygls.protocol:Cancel notification for unknown message id "510"
+WARNING:pygls.protocol:Cancel notification for unknown message id "515"
+WARNING:pygls.protocol:Cancel notification for unknown message id "516"
+WARNING:pygls.protocol:Cancel notification for unknown message id "514"
+WARNING:pygls.protocol:Cancel notification for unknown message id "505"
+WARNING:pygls.protocol:Cancel notification for unknown message id "517"
+WARNING:pygls.protocol:Cancel notification for unknown message id "520"
+WARNING:pygls.protocol:Cancel notification for unknown message id "518"
+WARNING:pygls.protocol:Cancel notification for unknown message id "519"
+WARNING:pygls.protocol:Cancel notification for unknown message id "521"
+WARNING:pygls.protocol:Cancel notification for unknown message id "523"
+WARNING:pygls.protocol:Cancel notification for unknown message id "525"
+WARNING:pygls.protocol:Cancel notification for unknown message id "526"
+WARNING:pygls.protocol:Cancel notification for unknown message id "531"
+WARNING:pygls.protocol:Cancel notification for unknown message id "533"
+WARNING:pygls.protocol:Cancel notification for unknown message id "551"
+WARNING:pygls.protocol:Cancel notification for unknown message id "582"
+WARNING:pygls.protocol:Cancel notification for unknown message id "585"
+WARNING:pygls.protocol:Cancel notification for unknown message id "592"
+WARNING:pygls.protocol:Cancel notification for unknown message id "604"
+WARNING:pygls.protocol:Cancel notification for unknown message id "608"
+WARNING:pygls.protocol:Cancel notification for unknown message id "622"
+WARNING:pygls.protocol:Cancel notification for unknown message id "667"
+WARNING:pygls.protocol:Cancel notification for unknown message id "672"
+WARNING:pygls.protocol:Cancel notification for unknown message id "680"
+WARNING:pygls.protocol:Cancel notification for unknown message id "714"
+ERROR:pygls.protocol:Failed to handle request 717 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///workspace/.vscode-remote/Cogs/ping.py') position=10:26
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover
+    jedi_script.help(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 368, in help
+    definitions = self.goto(line, column, follow_imports=True)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 297, in goto
+    names = list(name.goto())
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 178, in goto
+    i = trailer.parent.children.index(trailer)
+ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(argument, [<Name: name@11,26>, <Operator: =>, <String: 'ping'>]), <Operator: ,>, PythonNode(argument, [<Name: description@11,39>, <Operator: =>, <String: 'Bot latency'>])]), <Operator: )>]) is not in list
+[Error - 8:22:26 AM] Request textDocument/hover failed.
+  Message: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(arglist, [PythonNode(argument, [<Name: name@11,26>, <Operator: =>, <String: 'ping'>]), <Operator: ,>, PythonNode(argument, [<Name: description@11,39>, <Operator: =>, <String: 'Bot latency'>])]), <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover\n    jedi_script.help(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 368, in help\n    definitions = self.goto(line, column, follow_imports=True)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 297, in goto\n    names = list(name.goto())\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2022.8.0/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 178, in goto\n    i = trailer.parent.children.index(trailer)\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "763"
+WARNING:pygls.protocol:Cancel notification for unknown message id "776"

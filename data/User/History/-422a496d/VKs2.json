@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "gitpod.openInStable.neverPrompt": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "redhat.telemetry.enabled": true,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight"
+}

@@ -1,0 +1,16 @@
+Gitpod Code (1.68.1, shashibhusan123-bot-6ifnrupyb5j.ws-us47.gitpod.io, desktop)
+Jupyter Extension Version: 2022.5.1001610507.
+Python Extension Version: 2022.8.0.
+Workspace folder /workspace/.vscode-remote
+info 7:57:26.563: ZMQ install verified.
+info 7:57:31.289: LSP Notebooks experiment is disabled -- not in treatment group
+info 7:57:31.323: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 7:57:33.983: Process Execution: > ~/.pyenv/versions/3.8.13/bin/python -m pip list
+> ~/.pyenv/versions/3.8.13/bin/python -m pip list
+info 8:33:52.6: Shutting down notebooks for 187a7d82-743f-4543-b186-3e888635a51f
+info 8:33:52.6: Disposing HostJupyterExecution f835fa2d-a2c1-4d18-b4a9-9707bc36de9e
+info 8:33:52.6: Disposing super HostJupyterExecution f835fa2d-a2c1-4d18-b4a9-9707bc36de9e
+info 8:33:52.6: Disposing HostJupyterExecution f835fa2d-a2c1-4d18-b4a9-9707bc36de9e
+info 8:33:52.6: Finished disposing HostJupyterExecution  f835fa2d-a2c1-4d18-b4a9-9707bc36de9e
+info 8:33:52.11: Cleaning up server cache f835fa2d-a2c1-4d18-b4a9-9707bc36de9e
+info 8:33:52.13: Finished disposing HostJupyterExecution  f835fa2d-a2c1-4d18-b4a9-9707bc36de9e
